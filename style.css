@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Inter:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+ 
+ ul.topnav { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+}
+
+ul.topnav li {
+  float: right;
+}
+
+ul.topnav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-family: 'Arvo', serif;
+  font-style: normal;
+    font-weight: 400;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {
+  background-color: rgba(82, 82, 82, 0.445);
+}
+
+ul.topnav li.icon {
+  display: none;
+}
+.hero{
+    background-image: url('images/hero-image.png');
+    background-size: cover;
+    height: 30vh;
+    color:white;
+    padding: 5rem 0;
+    text-align: center;
+    }
+.main_heading{
+    width: 60%;
+    margin: auto;
+    font-family: 'Arvo', serif;
+    font-style: normal;
+}
+.main_heading__text{
+    width: 60%;
+    margin: auto;
+    font-family: system-ui;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f74c3c;
+    width: 120px;
+    height: 40px;
+    margin: auto;
+    font-family: 'Arvo', serif;
+    font-style: normal;
+    margin: 4px auto;
+}
+.hero img{
+    width: 5px;
+    height: auto;
+}
+header{
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button a{
+    text-decoration: none;
+    color:white;
+}
+.hero img{
+    width:5%;
+    height: auto;
+}
+.red_words{
+    color:#f74c3c;
+}
+.who_we_are{
+    row-gap: 20px;
+    width: 60%;
+    margin: 16px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.who_we_are .main_heading{
+    color: #f74c3c;
+}
+.get_involved{
+    display: flex;
+    padding-top: 8px;
+    text-align: center;
+    flex-direction: column;
+    background-color: #f5f5f5;
+}
+.get_involved .card_container{
+display: flex;
+width: 60%;
+margin: auto;
+}
+.get_involved .main_heading{
+    color: #f74c3c;
+}
+
+.get_involved .card{
+    width:33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card .button{
+    background-color: white;
+}
+.card .button{
+    background-color: white;
+    width: 10%;
+    font-size: 12px;
+    color: #f74c3c;
+}
+footer{
+    background-color: #f74c3c;
+    padding:15px;
+    }
+
+@media screen and (max-width:768px) {
+
+  ul.topnav li {
+    display: none;
+  }
+
+  ul.topnav li.icon {
+/*     float: right; */
+    display: inline-block;
+  }
+
+  ul.topnav.responsive {
+    position: relative;
+  }
+
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  header{
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero{
+background-image: url('images/hero-image.png');
+background-size: cover;
+background-repeat: no-repeat;
+height: 55vh;
+color:white;
+padding: 4px;
+text-align: center;
+}
+.main_heading{
+    width: 85%;
+    margin: auto;
+    font-family: 'Arvo', serif;
+    font-style: normal;
+}
+.main_heading__text{
+    width: 85%;
+    margin: auto;
+    font-family: system-ui;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f74c3c;
+    width: 120px;
+    height: 40px;
+    margin: auto;
+    font-family: 'Arvo', serif;
+    font-style: normal;
+    margin: 4px auto;
+}
+.button a{
+    text-decoration: none;
+    color:white;
+}
+.hero img{
+    width:20vw;
+    height: auto;
+}
+.who_we_are{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.who_we_are .main_heading{
+    color: #f74c3c;
+}
+.get_involved{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f5f5f5;
+
+}
+.get_involved .card_container{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    }
+.get_involved .main_heading{
+    color: #f74c3c;
+}
+.card{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.get_involved .card{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card .button{
+    background-color: white;
+    width: 50%;
+    font-size: 12px;
+    color: #f74c3c;
+}
+footer{
+    background-color: #f74c3c;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}

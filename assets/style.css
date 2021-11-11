@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arvo", serif;
+  color: white;
+}
+
+.background {
+  height: 600px;
+  width: 100%;
+  background-image: url("../images/hero-image.png");
+  background-size: cover;
+}
+.navbar-links {
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  font-family: "Arvo", serif;
+}
+
+h1 {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  text-align: center;
+}
+.title-1 {
+  font-size: 2rem;
+}
+h2 {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  color: #ff6347;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  color: black;
+}
+
+.text {
+  margin-top: 2%;
+  color: white;
+}
+span {
+  font-family: "Arvo , serif";
+  color: #ff6347;
+}
+
+.img-top {
+  width: 15rem;
+}
+
+.container {
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+.code {
+  width: 20%;
+  margin: auto;
+}
+
+.container_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2%;
+  width: 60%;
+  margin: auto;
+}
+.container_3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 2%;
+  width: 80%;
+  margin: auto;
+}
+
+hr {
+  width: 10%;
+}
+
+button {
+  margin-top: 2vh;
+  border: none;
+  border-radius: 5px;
+  width: 40vh;
+  height: 5vh;
+  font-family: "Arvo", serif;
+  background-color: #ff6347;
+  align-items: center !important;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.397);
+}
+#button-2 {
+  width: 200px !important;
+  background-color: white !important;
+  color: #ff6347 !important;
+  text-align: center;
+}
+#button-2 :hover {
+  background-color: rgb(179, 27, 0) !important;
+}
+
+.column_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content_2 {
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+}

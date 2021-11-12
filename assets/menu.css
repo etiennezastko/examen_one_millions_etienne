@@ -99,12 +99,6 @@ body {
 
 /* Background Styles Only */
 
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-
-* {
-  font-family: Raleway;
-}
-
 html {
   background-color: #dfdfdf;
 }

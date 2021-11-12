@@ -90,6 +90,8 @@ span {
 
 hr {
   width: 10%;
+  color: #ff6347;
+  margin: auto;
 }
 
 button {
@@ -98,6 +100,7 @@ button {
   border-radius: 5px;
   width: 40vh;
   height: 5vh;
+  margin: auto;
   font-family: "Arvo", serif;
   background-color: #ff6347;
   align-items: center !important;
@@ -121,9 +124,34 @@ button:hover {
   flex-direction: column;
 }
 
-.content_2 {
+.brand-logo {
+  margin: auto;
   margin: auto;
 }
 
-@media (max-width: 600px) {
+footer {
+  background-color: #ff6347;
+}
+
+@media screen and (max-width: 768px) {
+  .container_3 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    margin: auto;
+    width: 30%;
+  }
+
+  .item {
+    padding-top: 5%;
+  }
+
+  p {
+    margin-bottom: 5rem;
+  }
+
+  button {
+    padding-top: 2%;
+    margin: auto;
+  }
 }
